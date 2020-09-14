@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Noto Serif">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+	html{
+		background: url(back.jpg) no-repeat center fixed; 
+  background-size: cover;
+}
+.responsive{
+	width:50%;
+	height: auto;
+}
+.button {
+  padding: 15px 25px;
+  border-radius: 12px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #000;
+  background-color: #99ffff;
+  border: none;
+}
+
+.button:active {
+  background-color: #00cccc;
+  box-shadow: 0 5px #008080;
+  transform: translateY(4px);
+}
+.button:hover{
+  background-color: #bf80ff;
+  border-radius: 12px;
+  box-shadow: 0 5px #5900b3;
+}
+
+</style>
+</head>
+
+<body>
+	<div id=a1>
+		<h2 id=a2><img id=p2 src="tict_logo_new_2019.png" alt="Tint logo">TECHNO INTERNATIONAL NEW TOWN<img id=p1 src="" alt=""></h2>
+	</div>
+	<div id=a3>
+		<h1 id=a4>Lighting of Bulb</h1>
+	</div>
+	<img id=p3 src="MV.jpg" alt="Sir Mokshagundam Visvesvaraya">
+	<button class='button' onclick="document.getElementById('myImage').src='bulbon1.png'">Please light the bulb</button>
+	<img class="size" id="myImage" src="bulboff.png" style="width:200px" class="responsive">
+  <audio controls autoplay>
+  <source src="astoma_song.ogg" type="audio/ogg">
+  <source src="astoma_song.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+</body>
+</html>
